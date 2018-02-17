@@ -1,0 +1,11 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                                                      Id="K32E4JW6UJSE" StartScreens="/Home Page.screen" IndigoVersion="10" RecentColors="#FF007AFF,#FFAAAAAA">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="375,647">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>
