@@ -31,11 +31,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <Image DevicePixelRatio="0.5" Id="0df17578-9071-490e-9acb-dee23d59ed9c" Panel.Bounds="13,62,69{5,2147483647},63{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
-                            <Add.Item>
                                 <i:Label RichText="Intinsity of the program" FontFamily="Open Sans" Id="ef10ffe7-d001-4f16-9a40-05219f209afb" Panel.Bounds="101,62,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -52,22 +47,22 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:Label RichText="5-7 Kg" FontFamily="Open Sans" Id="17ccdffe-90b8-4d5c-aa91-f1195e265397" Panel.Bounds="125,126,5*{5,2147483647},5*{5,2147483647}" />
+                                <i:Label RichText="&lt;Run FontSize=&quot;9&quot; &gt;1 Challenge/day&lt;/Run&gt;" FontFamily="Open Sans" Id="17ccdffe-90b8-4d5c-aa91-f1195e265397" Panel.Bounds="111,126,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:Label RichText="Lose :" FontFamily="Open Sans" Id="f81bc916-d879-41eb-9a5b-a2de9d32e12c" Panel.Bounds="42,126,5*{5,2147483647},5*{5,2147483647}" />
+                                <i:Label RichText="Program Intinsity" FontSize="11" FontFamily="Open Sans" Id="f81bc916-d879-41eb-9a5b-a2de9d32e12c" Panel.Bounds="6,125,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:Label RichText="7-15 Kg" Foreground="#FF007AFF" FontFamily="Open Sans" Id="f0085092-bab2-4608-a2e5-424b8d7eeed2" Panel.Bounds="203,126,5*{5,2147483647},5*{5,2147483647}" />
+                                <i:Label RichText="&lt;Run FontSize=&quot;10&quot; &gt;2 Challenge/day&lt;/Run&gt;" Foreground="#FF007AFF" FontFamily="Open Sans" Id="f0085092-bab2-4608-a2e5-424b8d7eeed2" Panel.Bounds="193,126,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:Label RichText="7-15 Kg" FontFamily="Open Sans" Id="43df6fe6-3dea-4159-9ade-a685da0d7d16" Panel.Bounds="289,126,5*{5,2147483647},5*{5,2147483647}" />
+                                <i:Label RichText="&lt;Run FontSize=&quot;9&quot; &gt;3 Challenges/day&lt;/Run&gt;" FontFamily="Open Sans" Id="43df6fe6-3dea-4159-9ade-a685da0d7d16" Panel.Bounds="282,127,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
@@ -92,7 +87,11 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="63797ffd-c4eb-405c-987c-80d376e9fee4" Panel.Bounds="5,12,68{40,2147483647},5*{5,2147483647}" />
+                                <i:NavigationButton Text="Back" FontFamily="Open Sans" Id="63797ffd-c4eb-405c-987c-80d376e9fee4" Panel.Bounds="5,12,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandBack AnimateLastStateOnScreen="True" Created="02/17/2018 21:57:54" Id="07e52f3f-8a15-4208-b73d-42a4840a0ef8" />
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
@@ -102,27 +101,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <Icon CatalogId="linea-keyboard-right" Id="11d47103-40d7-4485-96b6-911d0f4081a2" Panel.Bounds="321,214,26{5,2147483647},26{5,2147483647}" />
+                                <Icon CatalogId="linea-keyboard-right" Id="11d47103-40d7-4485-96b6-911d0f4081a2" Panel.Bounds="216,240,26{5,2147483647},26{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:Label RichText="Watch a video" FontFamily="Open Sans" Id="4987a49b-f5af-4dac-86e1-869c8e1745b8" Panel.Bounds="217,193,5*{5,2147483647},5*{5,2147483647}" />
+                                <i:Label RichText="See what poeple &#xD;&#xA;who finished the callenge&#xD;&#xA;have to say :D" FontSize="11" FontFamily="Open Sans" Id="4987a49b-f5af-4dac-86e1-869c8e1745b8" Panel.Bounds="216,186,134{5,2147483647},45*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:Label RichText="To Motivate &#xD;&#xA;you :D" FontFamily="Open Sans" Id="114df679-cd7a-4ba7-9ce8-78a90db270a8" Panel.Bounds="217,215,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
-                            <Add.Item>
-                                <i:Title RichText="&lt;Run FontSize=&quot;17&quot; &gt;Tell us what motivated you &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;14&quot; &gt;to start losing Wieght&lt;/Run&gt;" FontFamily="Open Sans" Id="007e23f9-e2d1-45c3-ac00-1bc781707285" Panel.Bounds="13,287,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
-                            <Add.Item>
-                                <Icon CatalogId="iOS 7 Info2" Id="6d2ffa26-89ba-4be7-8b5f-fe363fb5b668" Panel.Bounds="335,292,22{5,2147483647},22{5,2147483647}" />
+                                <i:Title RichText="&lt;Run FontSize=&quot;17&quot; &gt;Tell us what motivated you &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;14&quot; &gt;to start losing Weight&lt;/Run&gt;" FontFamily="Open Sans" Id="007e23f9-e2d1-45c3-ac00-1bc781707285" Panel.Bounds="13,287,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
@@ -195,21 +184,53 @@
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="ad76ab7b-722a-4fcd-ac53-409a7cf5c42f" Panel.Bounds="13,486,343{1,2147483647},3{1,2147483647}">
-                                    <Line.StartPoint>
-                                        <Point Id="5131746b-0276-478a-80fb-4207be3b5088" />
-                                    </Line.StartPoint>
-                                    <Line.Segments>
-                                        <Segment Id="2b2a31cc-c702-4214-b3dc-59b5675e95b7">
-                                            <Segment.EndPoint>
-                                                <Point X="343" Id="bb7acb8c-aaf2-42f8-b588-5d6666410d23" />
-                                            </Segment.EndPoint>
-                                        </Segment>
-                                    </Line.Segments>
-                                </Line>
+                                <Rectangle Color="#FFAAAAAA" Id="d416bbc9-0b41-4465-92af-1654a4e90203" Panel.Bounds="13,504,343{5,2147483647},43{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Icon CatalogId="fa-heart" Id="3b12baf0-9834-4368-92fc-bc3e6ddf9cb5" Panel.Bounds="329,245,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="3b12baf0-9834-4368-92fc-bc3e6ddf9cb5" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Watch Video" FontSize="12" FontFamily="Open Sans" Id="5a66d62d-2032-4ac4-88dd-32c9c3f82264" Panel.Bounds="247,244,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="5a66d62d-2032-4ac4-88dd-32c9c3f82264" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Tooltip 2.screenpart" Id="a97b1fb2-2217-47b5-8278-7b10e4cb94d6" Panel.Bounds="185,298,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="a97b1fb2-2217-47b5-8278-7b10e4cb94d6" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <Icon CatalogId="fa-cutlery" Id="cfc23fd1-fb80-47f7-9dea-51b71a9da048" Panel.Bounds="21,62,50{5,2147483647},50{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="cfc23fd1-fb80-47f7-9dea-51b71a9da048" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Action" Text="Start the journey to change my life!" Background="#FF417BAD" Foreground="#FFFFFFFF" FontSize="16" Id="849f82cc-814f-4e57-990b-d98d7da6ca28" Panel.Bounds="8,577,359{25,2147483647},44*{44,2147483647}">
+                                    <i:ActionSheetButton.Click>
+                                        <CommandNavigate Screen="/Challenges.screen" State="52ca9af9-d870-43fc-94ce-74f3a9943d72" Created="02/17/2018 23:09:59" Id="a23de118-f5c4-45f6-a715-e6c7ed64eb4e">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionSheetButton.Click>
+                                </i:ActionSheetButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="849f82cc-814f-4e57-990b-d98d7da6ca28" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="105" FontFamily="Open Sans" Id="da4bf134-c950-4f49-9260-65032f52f028" Panel.Bounds="313,516,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="da4bf134-c950-4f49-9260-65032f52f028" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                            <Add.Item>
+                                <i:Label RichText="Enter your wieght" FontFamily="Open Sans" Id="9053e052-920e-429d-b8ea-694aefd543cd" Panel.Bounds="28,516,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="9053e052-920e-429d-b8ea-694aefd543cd" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
                                 <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="6f1835ad-febe-4759-a065-1ed5e1561ea3" Panel.Bounds="13,486,343{1,2147483647},3{1,2147483647}">
                                     <Line.StartPoint>
@@ -225,24 +246,20 @@
                                 </Line>
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
+                        <Add Property="Panel.Children" Before="6f1835ad-febe-4759-a065-1ed5e1561ea3" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
                             <Add.Item>
-                                <i:TextField FontFamily="Open Sans" Id="f7784fff-5ca4-40a8-aa81-20a6c47e4cac" Panel.Bounds="13,511,340{22,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
-                            <Add.Item>
-                                <i:Label RichText="Enter your wieght" FontFamily="Open Sans" Id="9053e052-920e-429d-b8ea-694aefd543cd" Panel.Bounds="28,516,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
-                            <Add.Item>
-                                <i:Label RichText="105" FontFamily="Open Sans" Id="da4bf134-c950-4f49-9260-65032f52f028" Panel.Bounds="313,516,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5e5b47bc-2e30-4dde-9270-bc945338d5ab">
-                            <Add.Item>
-                                <i:ActionSheetButton ButtonType="Action" Text="Start the journey to change my life!" FontSize="18" Id="849f82cc-814f-4e57-990b-d98d7da6ca28" Panel.Bounds="8,577,359{25,2147483647},44*{44,2147483647}" />
+                                <Line Thickness="1" Color="#FFAAAAAA" Background="#00FFFFFF" Id="ad76ab7b-722a-4fcd-ac53-409a7cf5c42f" Panel.Bounds="13,486,343{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point Id="5131746b-0276-478a-80fb-4207be3b5088" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="2b2a31cc-c702-4214-b3dc-59b5675e95b7">
+                                            <Segment.EndPoint>
+                                                <Point X="343" Id="bb7acb8c-aaf2-42f8-b588-5d6666410d23" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
