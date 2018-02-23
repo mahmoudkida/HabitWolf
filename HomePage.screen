@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                    xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                    Id="2f808af1-c291-4467-9dcd-ed5ce78b3cfd">
+                                                                                 xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                 Id="2f808af1-c291-4467-9dcd-ed5ce78b3cfd">
     <Page.Content>
         <Content Width="375" Height="647" Id="1eac6411-5a40-413c-8c37-5d0135c8d809">
             <Content.Layers>
@@ -127,6 +127,26 @@
                         <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
                             <Add.Item>
                                 <ScreenPartInstance TemplateReference="/Screenparts/Tooltip 1.screenpart" Id="4a76fa8f-efe4-4550-baf5-71a76da8a14b" Panel.Bounds="147,93,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="8c9419d0-9e96-460d-aabc-ebf58b95b03b" Panel.Bounds="284,331,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="67036245-7287-4cdd-9c59-0d3e4c0f90fc" Panel.Bounds="284,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="f144c89b-297f-4cb4-b2cd-0518eda147d1" Panel.Bounds="159,512,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0e62d52a-b21e-4498-aa59-677a7276f3c3">
+                            <Add.Item>
+                                <i:Label RichText="Coming Soon" FontSize="9" FontFamily="Open Sans" Id="740ddd5e-96ad-473f-b896-d03c38b91906" Panel.Bounds="38,512,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

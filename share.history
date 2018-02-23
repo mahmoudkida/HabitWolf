@@ -2,5 +2,6 @@
 <ShareHistory xmlns="http://prototypes.infragistics.com/shares/">
     <ShareHistory.Histories>
         <ShareUserHistory ShareUserId="1dbdd66811524b5b933d8c96a0c298f9" />
+        <ShareUserHistory ShareUserId="d98aed866c744508b609651deab170d4" />
     </ShareHistory.Histories>
 </ShareHistory>
