@@ -29,7 +29,7 @@
                             <Add.Item>
                                 <i:TabBar Id="8e1c1365-b4ee-4e66-abee-fdb2c72b2f50" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
                                     <i:TabBar.Items>
-                                        <i:TabBarItem Header="Challenges" IsSelected="True" Id="4911a27a-ade6-4217-8a70-bbd99d1cd78b">
+                                        <i:TabBarItem Header="Challenges" Id="4911a27a-ade6-4217-8a70-bbd99d1cd78b">
                                             <i:TabBarItem.Icon>
                                                 <Icon CatalogId="iOS 7 Bookmarks" Id="f74c6079-8950-418c-91dd-b4aefa4a2f1d" />
                                             </i:TabBarItem.Icon>
@@ -229,7 +229,7 @@
                                                 </Container>
                                             </i:TabBarItem.Content>
                                         </i:TabBarItem>
-                                        <i:TabBarItem Header="Motivation" Id="d6dad2a3-face-41da-b15f-5bb4bb49247d">
+                                        <i:TabBarItem Header="Motivation" IsSelected="True" Id="d6dad2a3-face-41da-b15f-5bb4bb49247d">
                                             <i:TabBarItem.Icon>
                                                 <Icon CatalogId="fa-sun-o" Id="bf2cd4ca-08f3-4c2a-aa99-780c099caf40" />
                                             </i:TabBarItem.Icon>
@@ -239,7 +239,7 @@
                                                         <i:Header Text="Habit Wolf : Motivation" FontSize="16" FontFamily="Open Sans" Id="7ec4c224-c791-481e-bb41-057a88ce3c89" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
                                                         <i:SegmentedControlContent Id="cbf3321c-85c8-4a79-b02b-324fd343d0a6" CompositeControl.Key="d1c8154f-0589-4c68-b2a2-5a9c10a17114" Panel.Bounds="0,90,375{5,2147483647},503{5,2147483647}">
                                                             <i:SegmentedControlContent.Items>
-                                                                <i2:ContainerListItem Text="Videos Content" IsSelected="True" Id="ff13c035-fcd9-4899-b081-e2cf90c82bca" i2:ContainerListControl.ItemKey="51945571-2d1e-4642-a526-db613604979f">
+                                                                <i2:ContainerListItem Text="Videos Content" Id="ff13c035-fcd9-4899-b081-e2cf90c82bca" i2:ContainerListControl.ItemKey="51945571-2d1e-4642-a526-db613604979f">
                                                                     <i2:ContainerListItem.Content>
                                                                         <Container ClipToContainer="True" Id="4eae465f-eeb5-4df2-a7c3-55d5accaaa0b">
                                                                             <Container.Children>
@@ -302,7 +302,7 @@
                                                                         </Container>
                                                                     </i2:ContainerListItem.Content>
                                                                 </i2:ContainerListItem>
-                                                                <i2:ContainerListItem Text="Stories Content" Id="7a60e3a0-59ac-4f75-aadc-a046504a7572" i2:ContainerListControl.ItemKey="81e76be0-54aa-42b5-b149-21f415fca362">
+                                                                <i2:ContainerListItem Text="Stories Content" IsSelected="True" Id="7a60e3a0-59ac-4f75-aadc-a046504a7572" i2:ContainerListControl.ItemKey="81e76be0-54aa-42b5-b149-21f415fca362">
                                                                     <i2:ContainerListItem.Content>
                                                                         <Container ClipToContainer="True" Id="9f1bfae3-fe77-4b9f-97f5-a5b63a6d7de1">
                                                                             <Container.Children>
@@ -349,8 +349,8 @@
                                                         </i:SegmentedControlContent>
                                                         <i:SegmentedControlButtons Id="66b5c11a-a50a-494c-a4c4-b05418f163c0" CompositeControl.Key="d1c8154f-0589-4c68-b2a2-5a9c10a17114" Panel.Bounds="85,52,205{30,2147483647},28{12,2147483647}">
                                                             <i:SegmentedControlButtons.Items>
-                                                                <i:SegmentedToggleItem Text="Videos" IsSelected="True" Id="be20ba15-9823-49f6-bfc3-9691a6bf8691" i2:ContainerListControl.ItemKey="51945571-2d1e-4642-a526-db613604979f" />
-                                                                <i:SegmentedToggleItem Text="Stories" Id="8e525120-d8fc-4119-9741-5bb729e593bb" i2:ContainerListControl.ItemKey="81e76be0-54aa-42b5-b149-21f415fca362" />
+                                                                <i:SegmentedToggleItem Text="Videos" Id="be20ba15-9823-49f6-bfc3-9691a6bf8691" i2:ContainerListControl.ItemKey="51945571-2d1e-4642-a526-db613604979f" />
+                                                                <i:SegmentedToggleItem Text="Stories" IsSelected="True" Id="8e525120-d8fc-4119-9741-5bb729e593bb" i2:ContainerListControl.ItemKey="81e76be0-54aa-42b5-b149-21f415fca362" />
                                                             </i:SegmentedControlButtons.Items>
                                                         </i:SegmentedControlButtons>
                                                     </Container.Children>
